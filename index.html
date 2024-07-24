@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do List</h1>
+        <div class="input-container">
+            <input type="text" id="taskInput" placeholder="Add a new task...">
+            <button id="addTaskBtn">Add Task</button>
+        </div>
+        <div class="color-palette">
+            <span class="color-option" style="background-color: #ff0000;" data-color="#ff0000"></span>
+            <span class="color-option" style="background-color: #ff7f00;" data-color="#ff7f00"></span>
+            <span class="color-option" style="background-color: #ffff00;" data-color="#ffff00"></span>
+            <span class="color-option" style="background-color: #7fff00;" data-color="#7fff00"></span>
+            <span class="color-option" style="background-color: #00ff00;" data-color="#00ff00"></span>
+            <span class="color-option" style="background-color: #00ffff;" data-color="#00ffff"></span>
+            <span class="color-option" style="background-color: #0000ff;" data-color="#0000ff"></span>
+            <span class="color-option" style="background-color: #8b00ff;" data-color="#8b00ff"></span>
+        </div>
+        <ul id="taskList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
